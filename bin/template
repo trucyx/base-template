@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const { sayHi } = require('../lib/index.js')
+const pkg = require('../package.json')
+
+sayHi()
+console.log(pkg)

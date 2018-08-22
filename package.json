@@ -2,8 +2,12 @@
     "name": "template",
     "version": "0.1.0",
     "description": "template",
-    "main": "index.js",
+    "bin": {
+        "githug": "./bin/githug"
+    },
+    "main": "lib/index.js",
     "scripts": {
+        "start": "node bin/template",
         "test": "jest"
     },
     "repository": {

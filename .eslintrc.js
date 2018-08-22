@@ -11,5 +11,6 @@ module.exports = {
         'link-base'
     ],
     rules: {
+        'no-console': 0
     }
 }
